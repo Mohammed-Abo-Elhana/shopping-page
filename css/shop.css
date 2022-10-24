@@ -1,0 +1,354 @@
+.Serv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Serv .clor {
+    width: 100%;
+    height: 4%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Serv .clor div {
+    margin-left: 60px;
+}
+
+.Serv .clor div a {
+    text-decoration: none;
+    margin: 0 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.Serv .clor div span a {
+    color: #9c08ff;
+}
+
+.Serv .container {
+    width: 85%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.Serv .container .col {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Serv .container .col .col1 {
+    width: 100%;
+    height: 180px;
+    border: 1px solid #d3d3d3;
+    padding: 0 15px 0;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.Serv .container .col .col1 h3 {
+    font-size: 15px;
+    margin: 20px 0 0 0;
+}
+
+.Serv .container .col .col1 .price {
+    width: 100%;
+    height: 80%;
+    padding-top: 15px;
+}
+
+.Serv .container .col .col1 .price div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.Serv .container .col .col1 .price div h5 {
+    color: #4539e2;
+}
+
+.Serv .container .col .col2 {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #d3d3d3;
+    padding: 15px 15px 0;
+    border-radius: 4px;
+}
+
+.Serv .container .col .col2 .div1 {
+    width: 100%;
+    height: 25%;
+}
+
+.Serv .container .col .col2 .div2-sh {
+    width: 100%;
+    height: 34%;
+}
+
+.Serv .container .col .col2 .div3 {
+    width: 100%;
+    height: 38%;
+    display: flex;
+    padding-bottom: 100px;
+    align-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Serv .container .col .col2 h3 {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.Serv .container .col .col2 label {
+    font-size: 13px;
+}
+
+.Serv .container .col .col2 i {
+    color: red;
+    font-size: 13px;
+    margin-right: 9px;
+}
+
+.Serv .container .col .col2 .div3 div {
+    margin-bottom: 8px;
+}
+
+.Serv .container .col .col2 .div3 .gre i {
+    color: green;
+}
+
+.Serv .container .col .col2 .div3 .blu i {
+    color: blue;
+}
+
+.Serv .container .col .col2 .div3 .pur i {
+    color: purple;
+}
+
+.Serv .container .row {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Serv .container .row .div1 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Serv .container .row .div1 select {
+    width: 100px;
+    height: 35px;
+    background-color: #e6e7e9;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.Serv .container .row .div1 select:hover {
+    -webkit-box-shadow: 0 5px 20px -7px rgb(0 0 0 / 90%) !important;
+    box-shadow: 0 5px 20px -7px rgb(0 0 0 / 90%) !important;
+    top: -2px;
+}
+.Serv .container .row .div1 select:focus-visible {
+    border: 0;
+    outline: 0;
+}
+
+.Serv .container .row .div1 select option {
+    width: 150px;
+    background-color: #fff;
+}
+
+.Serv .container .row .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Serv .container .row .content .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.Serv .container .row .content .card {
+    width: 285px;
+    height: 380px;
+    -webkit-box-shadow: 0 0 30px -10px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 30px -10px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    border: 1px solid #dee2e6 !important;
+}
+.content .card {
+    width: 285px;
+    height: 380px;
+    -webkit-box-shadow: 0 0 30px -10px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 30px -10px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    border: 1px solid #dee2e6 !important;
+}
+
+.Serv .container .row .content .card img {
+    width: 100%;
+}
+.card img {
+    width: 100%;
+}
+
+.cards .container .card img {
+    width: 100%;
+    height: 50%;
+}
+
+.card img {
+    width: 100%;
+    height: 50%;
+}
+
+.Serv .container .row .content .card .text {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content .card .text {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Serv .container .row .content .card .text h4 {
+    color: #9e00e2;
+}
+
+.Serv .container .row .content .card .text p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #6d6c6c;
+}
+
+.Serv .container .row .content .five {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.Serv .container .row .content .five .one {
+    background-color: #4539e2;
+    color: #fff;
+}
+
+.Serv .container .row .content .five div {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #afadad;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.Serv .container .row .content .five div:hover {
+    background-color: #4539e2;
+    color: #fff;
+}
+
+
+span{
+    color: #7971ea;
+}
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
+
+.custom-select select {
+    display: none;
+}
+
+.select-selected {
+    background-color: DodgerBlue;
+}
+
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+.select-items div,
+.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+.select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
